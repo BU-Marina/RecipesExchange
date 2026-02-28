@@ -1,10 +1,6 @@
-# Foodgram
+# Recipes exchange
 
-[![CI](https://github.com/BU-Marina/foodgram-project-react/actions/workflows/foodgram_workflow.yml/badge.svg?branch=master)](https://github.com/BU-Marina/foodgram-project-react/actions/workflows/foodgram_workflow.yml)
-
-Публичный IP: 158.160.33.128
-
-Доменное имя: foodgram.ddns.net
+[![CI](https://github.com/BU-Marina/RecipesExchange/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/BU-Marina/RecipesExchange/actions/workflows/ci.yml)
 
 ## Описание
 
