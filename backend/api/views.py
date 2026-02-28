@@ -149,7 +149,7 @@ class RecipeViewSet(viewsets.ModelViewSet):
             for recipe in recipes
         ])
         shoppingcart += '\n\n---'
-        shoppingcart += '\nFoodgram | Продуктовый Помощник'
+        shoppingcart += '\RecipesExchange | Продуктовый Помощник'
 
         filename = '{}_shopping_cart.txt'.format(self.request.user)
         response = HttpResponse(
