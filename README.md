@@ -8,8 +8,20 @@
 
 ## Запуск проекта в контейнерах
 
-Выполнить из директории с файлом docker-compose.yaml
+Выполнить из директории с файлом docker-compose_local.yaml (infra/)
 
 ```
-docker-compose up -d --build
+docker-compose -f docker-compose_local.yml up -d --build
+```
+
+После запуска в контейнерах проект будет доступен по:
+
+```
+http://localhost/
+```
+
+Остановить и удалить контейнеры и volumes:
+
+```
+docker-compose -f docker-compose_local.yml down -v
 ```
